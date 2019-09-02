@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400&display=swap');
+
+*{
+    
+       padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li, a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200px;
+    font-size: 16px;
+    color: #868b94;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 110px;
+}
+.logo{
+    cursor: pointer;
+}
+.nav_links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 30px;
+    text-transform: uppercase;
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    color: #65a9d9
+}
+.mw{
+    width: 100%;
+    margin-bottom: 120px;
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 200px;
+   color: #5d6471;
+   margin-bottom: 120px;
+}
+.notebook{
+    float: right;
+}
+.description{
+    margin-left: 90px;
+}
+.description_paragraph{
+    margin-bottom: 37px;
+    font-size: 14px;
+    margin-top: 28px;
+    color: #9ca1a9;
+}
+.clouds{
+    display: inline;
+    margin-right: 43px;
+}
+.clock{
+    display: inline;
+    ma
+}
+.speechbubble{
+    display:inline;
+}
+.Ellipce{
+    display: inline;
+}
+h2{
+    display: inline;
+}
+
+.different{
+    margin-top: 164px;
+    background-color: #f5f5f6;
+    height: 750px;
+    width: 100%;
+    background-image: url(/images/Layer\ 23.png)
+}
+h3{
+    text-align: center;
+    margin right: 100px;
+    text-transform: uppercase;
+    color: #4d5564;
+    font-size: 40px;
+    margin-bottom: 165px;
+    padding-top: 165px;
+
+}
+.vector{
+    display: inline;
+}
+.device{
+    display: inline;
+    font-size: 28px;
+    color: #535b69;
+}
+.lorem{
+    margin-top: 47px;
+    line-height: 30px;
+    color: #7c818a;
+}
+.head{
+    max-width: 1500px;
+    height: 1043px;
+    background-image: url(/images/hand.png);
+    background-repeat: no-repeat;
+    padding-left: 150px;
+}
+.main_paragraph{
+    font-size: 52px;
+    font-weight: 800px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 244px;
+    padding-bottom: 44px;
+}
+.paragraph_free{
+    color:white;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 54px;
+    margin-bottom: 40px;
+}
+.free{
+}
+.cursive{
+    font-size: 24px;
+    font-style: italic;
+    color: #ffffff
+}
+.s{
+    border: 5px;
+}
+.footer{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #5a626e;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.using_paragraph{
+    font-size: 24px;
+    font-style: italic;
+    color: #858a92;
+    text-align: center
+}
+.bottom{
+    padding-top: 144px;
+}
+.footer_input{
+    width:45%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 15px;
+}
+.button2{
+    padding: 18px;
+    background-color: #77c344;
+    font-size: 20px;
+    border-radius: 10px;
+    width:190px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.button2:hover{
+   background-color:  #5a9532
+}
+.inputform2{
+    margin-top: 64px;
+    padding-left: 320px;
+}
+.header_input{
+    width:424px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 15px;
+}
+.button{
+    padding: 18px;
+    background-color: #77c344;
+    font-size: 20px;
+    border-radius: 10px;
+    width:110px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    cursor: pointer
+}
+.button:hover{
+    background-color:  #5a9532
+ }
+ .footer-main-div{
+
+     bottom: 0;
+     width: 100%;
+     height: auto;
+
+     background-color: #f9f9f9;
+     height: 140px;
+     margin-top: 108px;
+ }
+ 
+.footer_logo{
+    padding-left:130px;
+    padding: 60px;
+}
+.footer_links{
+    float: right;
+    list-style: none;
+    padding-right: 250px;
+
+}
+.footer_links li{
+    display: inline-block;
+    padding: 0px 0px;
+    padding-left: 30px;
+    padding-top:70px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.footer_links li:hover{
+    color: #65a9d9;
+}
+.free{
+    background-color: #ffce54;
+    border-radius: 5px;
+    padding: 5px;
+}
+.footer-icons{
+float: right;
+padding-top:70px;
+
+}
+.footer-icons img{
+    padding-right: 33px;
+    cursor: pointer;
+    
+}
+.latest_works{
+    margin-left: 14.4%
+}
+@media (max-width: 1150px){
+    img{
+        max-width: 100%; height: auto;
+    }
+}
+@media (max-width: 768px){
+    
+}
