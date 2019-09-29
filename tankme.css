@@ -84,7 +84,7 @@ h2{
     background-color: #f5f5f6;
     height: 750px;
     width: 100%;
-    background-image: url(/images/Layer\ 23.png)
+    background-image: url(./images/Layer 23.png)
 }
 h3{
     text-align: center;
@@ -112,7 +112,7 @@ h3{
 .head{
     max-width: 1500px;
     height: 1043px;
-    background-image: url(/images/hand.png);
+    background-image: url(./images/hand.png);
     background-repeat: no-repeat;
     padding-left: 150px;
 }
